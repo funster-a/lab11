@@ -5,4 +5,4 @@ data class Item(
     val id: Long,
     val title: String,
     val description: String
-) : Serializable // Нужно для передачи через Bundle, если не использовать SafeArgs (но мы будем)
+) : Serializable // Нужно для передачи через Bundle, если не использовать SafeArgs (но мы б

@@ -1,7 +1,7 @@
-package com.example.app.ui
+package com.example.lab11.ui
 
 import androidx.lifecycle.*
-import com.example.app.data.*
+import com.example.lab11.data.*
 import kotlinx.coroutines.launch
 
 class CatalogViewModel : ViewModel() {

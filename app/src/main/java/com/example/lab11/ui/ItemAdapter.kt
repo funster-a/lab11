@@ -1,11 +1,11 @@
-package com.example.app.ui
+package com.example.lab11.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.app.data.Item
+import com.example.lab11.data.Item
 
 class ItemAdapter(private val onClick: (Item) -> Unit) : RecyclerView.Adapter<ItemAdapter.VH>() {
     private val items = mutableListOf<Item>()
